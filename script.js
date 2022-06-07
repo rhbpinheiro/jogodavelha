@@ -28,7 +28,7 @@ function itemClick(event) {
 }
 
 function reset() {
-  warning = ''
+  warning = '--'
   //let random irá escolher qual jogador irá começar aleatoriamente
   let random = Math.floor(Math.random() * 2)
   // if (random === 0) {

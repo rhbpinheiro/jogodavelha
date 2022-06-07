@@ -53,11 +53,12 @@ div.info {
   align-items: center;
   padding: 10px;
   margin: 10px;
-  border: 2px dotted rgb(63, 73, 117);
+  border: 2px solid rgb(63, 73, 117);
   margin-left: 40px;
   border-radius: 5px;
  }
 .infoitem{
+  flex: 1;
   display: block;
   text-align: center;
   margin-right: 20PX;
@@ -66,14 +67,7 @@ div.info {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.winner-result{
-  display: block;
-  text-align: center;
-  color: rgb(63, 73, 117);
-  font-weight: bold;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 button.reset{
   cursor: pointer;
   width: 100px;
